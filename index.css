@@ -33,7 +33,7 @@ body a {
 .navbar-top {
     position: sticky;
     background-color: #FFFFFF;
-    display: block;
+    display: flex;
     width: 100%;
 
 }
@@ -61,40 +61,7 @@ body a {
     padding-right: 5px;
 }
 
-/* Style the links inside the sidenav */
-#mySidenav a {
-    position: absolute; /* Position them relative to the browser window */
-    left: -80px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 10px; /* 15px padding */
-    width: 100px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Increase font size */
-    color: white; /* White text color */
-    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-  }
-  
-  #mySidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
-  }
-  
-  /* The about link: 20px from the top with a green background */
-  #github {
-    top: 50%;
-    background-color: #2a2d39;
-  }
-  
-  #blog {
-    top: 55%;
-    background-color: #2a2d39; /* Blue */
-  }
-  
- 
-  
-  #contact {
-    top: 60%;
-    background-color: #2a2d39 /* Light Black */
-  }
+
 
 
 #container {
@@ -105,12 +72,14 @@ body a {
 }
 
 .top-card {
-    height: 100px;
+    height: 250x;
     width: 100%;
     background-color: #e7ac67;
     background-size: cover;
     bottom: 0;
     left: 0;
+    padding: 2%;
+    margin-bottom: 40px;
 }
 
 .main-page {
@@ -123,10 +92,73 @@ body a {
 }
 
 
-.name {
+.app-container {
+    display: flex;
+    height: 300px;
+
 
 }
 
+.painted-planks {
+    background-color: #2a2d39;
+    height: 35vh;
+    width: 300px;
+    margin-left: 10%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pp-image {
+    height: 40%;
+    width: 100%;
+    background-image: url(https://cdn.modrinth.com/data/5lZWiV5I/images/3f0d965988c71735298c86a188becfa631484be1.png);
+    background-size: cover;
+    margin-bottom: 5%;
+    margin-top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.pp-title {
+    text-align: center;
+    font-size: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.pp-description {
+    color: #b0bac5;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.pp-download {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 10%;
+    border-radius: 20px;
+    background-color: #1bd96a;
+    margin: 10%;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.pp-download:hover {
+    background-color: #108441;
+    top: 5px;
+}
+
+.pp-download a {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
 
 
 
