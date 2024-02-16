@@ -84,19 +84,13 @@ body a {
 
 .main-page {
     text-align: center;
-    font-size: 30px;
-    
-    
-
-    
+    font-size: 30px;   
 }
 
 
 .app-container {
     display: flex;
     height: 300px;
-
-
 }
 
 .painted-planks {
@@ -118,7 +112,6 @@ body a {
     margin-top: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
 }
 
 .pp-title {
@@ -159,6 +152,3 @@ body a {
     text-align: center;
     margin-top: 1%;
 }
-
-
-
