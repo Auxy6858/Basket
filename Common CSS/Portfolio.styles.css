@@ -3,10 +3,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 main[b-6s3h03cu1w] {
     flex: 1;
+    overflow: hidden;
 }
 
 .sidebar[b-6s3h03cu1w] {
@@ -26,7 +28,7 @@ main[b-6s3h03cu1w] {
     }
 
     .top-row[b-6s3h03cu1w]  a:first-child {
-        overflow: hidden;
+        overflow: scroll;
         text-overflow: ellipsis;
     }
 
@@ -175,6 +177,7 @@ main[b-6s3h03cu1w] {
 
 .nav-scrollable[b-fw0lmtliz2] {
     display: none;
+    height: 100%;
 }
 
 .navbar-toggler:checked ~ .nav-scrollable[b-fw0lmtliz2] {
@@ -191,12 +194,13 @@ main[b-6s3h03cu1w] {
         display: block;
 
         /* Allow sidebar to scroll for tall menus */
-        height: calc(100vh - 3.5rem);
+        height: 100%;
         overflow-y: auto;
     }
 }
 body[b-fw0lmtliz2]
 {
+    height: 100%;
     overflow: hidden; /* Hide scrollbars */
 }
 
@@ -208,3 +212,5 @@ body[b-msgvu9ph55] {
 body[b-de65eytyn2] {
     background: #DCD9E8
 }
+
+

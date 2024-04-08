@@ -19,13 +19,15 @@
 
 #app {
     width: 100%;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 #house-container{
     background: radial-gradient(rgb(var(--light-rgb)), rgb(var(--dark-rgb)));
     height: 100%;  
-    overflow: hidden;
     position: relative;
+    overflow: scroll;
 }
 
 #house-pattern {
@@ -59,5 +61,11 @@
     position: relative;
     z-index: 10;
     font-size: 20px;
+
 }
 
+
+
+#Text {
+    margin-bottom: 5vh;
+}
