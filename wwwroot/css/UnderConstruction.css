@@ -1,0 +1,15 @@
+﻿#message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch; 
+    flex-wrap: wrap;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 456px;
+    max-height: 300px;
+    justify-content: center;
+}

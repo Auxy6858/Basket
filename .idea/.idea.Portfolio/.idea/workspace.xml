@@ -8,9 +8,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d65b962-ce7f-475f-9fcd-caf493e04e77" name="Changes" comment="Updated token">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+    <list default="true" id="4d65b962-ce7f-475f-9fcd-caf493e04e77" name="Changes" comment="updated github actions">
+      <change afterPath="$PROJECT_DIR$/Pages/UnderConstruction.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/css/UnderConstruction.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/js/LoadingBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout/NavMenu.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/NavMenu.razor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +29,14 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +73,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;rewrite&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -148,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729365127054</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated github actions">
+      <option name="closed" value="true" />
+      <created>1729367030766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729367030766</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +203,7 @@
     <MESSAGE value="Updated github actions" />
     <MESSAGE value="Included .NET prerelease" />
     <MESSAGE value="Updated token" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated token" />
+    <MESSAGE value="updated github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated github actions" />
   </component>
 </project>
