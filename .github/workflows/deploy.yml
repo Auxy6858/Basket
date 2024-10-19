@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-dotnet@v2
         with:
           dotnet-version: '9.0'
+          include-prerelease: 'true'
 
       - name: Build Blazor WebAssembly App
         run: dotnet publish -c Release -o build

@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d65b962-ce7f-475f-9fcd-caf493e04e77" name="Changes" comment="Updated index.html">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d65b962-ce7f-475f-9fcd-caf493e04e77" name="Changes" comment="Updated github actions">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <updated>1729356007556</updated>
       <workItem from="1729356008591" duration="214000" />
       <workItem from="1729356224814" duration="5500000" />
-      <workItem from="1729362971432" duration="1299000" />
+      <workItem from="1729362971432" duration="1384000" />
     </task>
     <task id="LOCAL-00001" summary="Added nojekyll">
       <option name="closed" value="true" />
@@ -124,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729363680712</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated github actions">
+      <option name="closed" value="true" />
+      <created>1729364283603</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729364283603</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Added nojekyll" />
     <MESSAGE value="Updated index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated index.html" />
+    <MESSAGE value="Updated github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated github actions" />
   </component>
 </project>
