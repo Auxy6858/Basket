@@ -1,0 +1,27 @@
+﻿name: Build and Deploy Blazor WebAssembly
+
+on:
+  push:
+    branches:
+      - rewrite
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: '9.0'
+
+      - name: Build Blazor WebAssembly App
+        run: dotnet publish -c Release -o build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/wwwroot
