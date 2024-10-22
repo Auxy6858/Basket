@@ -1,0 +1,7 @@
+.glow-point {
+  position: absolute;
+  box-shadow: 0 0 1.2rem 0.6rem rgb(239, 42, 201);
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=Glow.css.map */
